@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Simple Counter App</h1>
+    </div>
+
+    <div class="counter">
+        <button id="decrement">-</button>
+        <span id="counterValue">0</span>
+        <button id="increment">+</button>
+    </div>
+    <div class="controls">
+        <button id="reset">Reset</button>
+    </div>
+
+   
+    <div id="resetModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Reset Counter?</h2>
+            <div class="modal-buttons">
+                <button id="confirmReset" class="modal-btn yes-btn">Yes</button>
+                <button id="cancelReset" class="modal-btn cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
